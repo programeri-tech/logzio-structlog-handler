@@ -1,5 +1,8 @@
 # logzio-structlog-handler
 
+[![PyPI version](https://badge.fury.io/py/logzio-structlog-handler.svg)](https://badge.fury.io/py/logzio-structlog-handler)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=centerme)](https://github.com/psf/black)
+
 Handler to send structlog logger to logzio
 
 All logs have `host`, `pid` and `tid` added to them.
@@ -14,7 +17,9 @@ logger.info(
     request_id=uuid4()
 )
 ```
+
 Logzio:
+
 ```shell
   "_source": {
     "request": "GET /account/ping",
