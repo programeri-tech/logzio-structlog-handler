@@ -1,6 +1,6 @@
-from logzio_structlog_handler._handler import LogzIoStructlogHandler
+from structlogzio._handler import LogzIoStructlogHandler
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __title__ = "logzio-structlog-handler"
 __description__ = "Sending structlog-s to logzio"

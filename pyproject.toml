@@ -1,6 +1,9 @@
 [tool.poetry]
 name = "logzio-structlog-handler"
-version = "0.1.0"
+packages = [
+    { include = "structlogzio" }
+]
+version = "0.1.1"
 description = "Package for sending structlog-s to logzio"
 authors = ["nikooola <nikolassmiljanic5@gmail.com>", "andrijaz <andrijazivkovic@hotmail.com>"]
 readme = "README.md"
