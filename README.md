@@ -58,7 +58,7 @@ Logzio:
 LOGGING = {
     "handlers": {
         "logzio": {
-            "class": "logzio-structlog-handler.LogzIoStructlogHandler",
+            "class": "structlogzio.LogzIoStructlogHandler",
             "level": "INFO",
             "token": "YOUR_TOKEN",
             "logs_drain_timeout": 5,
