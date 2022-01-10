@@ -6,7 +6,7 @@ import os
 import platform
 import threading
 import traceback
-from typing import Dict
+from typing import Any, Dict
 
 from logzio.exceptions import LogzioException
 from logzio.sender import LogzioSender
@@ -21,7 +21,7 @@ class LogzIoStructlogHandler(logging.Handler):
         debug=False,
         backup_logs=True,
         network_timeout=10.0,
-        tags: Dict[str, str] = None,
+        tags: Dict[str, Any] = None,
     ):
 
         if not token:
