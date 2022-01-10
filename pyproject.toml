@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "logzio-structlog-handler"
+version = "0.1.0"
+description = "Package for sending structlog-s to logzio"
+authors = ["nikooola <nikolassmiljanic5@gmail.com>", "andrijaz <andrijazivkovic@hotmail.com>"]
+readme = "README.md"
+repository = "https://github.com/programeri-tech/logzio-structlog-handler"
+homepage = "https://github.com/programeri-tech/logzio-structlog-handler"
+license = "MIT"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+logzio-python-handler = "3.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
